@@ -1,0 +1,16 @@
+{
+  "name": "helpscout-api-scratch",
+  "version": "1.0.0",
+  "description": "helpscout api from scratch",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "test.js"
+  },
+  "author": "Jacob Blaylock",
+  "license": "ISC",
+  "dependencies": {
+    "mysql": "^2.11.1",
+    "striptags": "^2.1.1"
+  }
+}
