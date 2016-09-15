@@ -19,7 +19,7 @@ console.log('Pulling all tickets closed from ', startDate, ' to ', endDate);
 		wait = 20;
 	}
 
-	//Execute only after waiting the given amount of time.
+	//Execute only after waiting the given amount of time (wait value in seconds).
 	setTimeout(function holdUp(){
 
 		//Get the results for a specific page
