@@ -38,9 +38,9 @@ console.log('Pulling all tickets closed from ', startDate, ' to ', endDate);
 
 				//Get the full thread object for the conversation and insert into the OS Ticket DB
 				helpscout.getThread(item.id, function threadLoop(thread){
-					//filewriter.writeThreadsToFile(thread);  // use to view results in a text file.
 					helpscout.insertTickets(thread);
-
+					//Use to view results in a text file.
+					//filewriter.writeThreadsToFile(thread);  
 				});
 			});
 
